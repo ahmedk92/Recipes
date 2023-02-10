@@ -3,7 +3,7 @@ import RecipesViewModels
 import UIKit
 
 public class RecipesListInteractor {
-    private var viewModel: RecipesListViewModel
+    private let viewModel: RecipesListViewModel
     private var cancellables: [AnyCancellable] = []
     
     public init(viewModel: RecipesListViewModel) {
